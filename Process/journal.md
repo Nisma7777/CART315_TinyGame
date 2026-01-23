@@ -32,4 +32,5 @@ In the last class, when Professor Matt discussed a peer’s journal, I noticed a
 A lot of changes had to be made in the game data just to manipulate the code. This is all about the challenges; now let’s focus on what we were able to achieve: a two-level game with increasing complexity. 
 The first level is designed so that the cat needs to collect all four treats before unlocking the door, but there are invisible portals to a mystery room. One drawback of the game is that the dog follows the cat, but the game-over screen only appears if the cat collides with the dog. In the second level, the cat is met by two aggressive dogs. I think the speed at which the dogs chase is extremely fast, making it very hard to complete this level, but I might change it later.
 
-Here are a couple of screenshots of the levels of my game 
+Here are a couple of screenshots of the levels of my game (Will add soon , some path errors!)
+

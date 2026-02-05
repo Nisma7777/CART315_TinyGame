@@ -53,7 +53,7 @@ Here’s what I experimented with: first, I accomplished basic left and right mo
 Once I got these elements working, the fun part began: I wanted the color of the ball to change and for balls of varying sizes to fall. This feature worked as well; I created three circles tagged differently and used the compare tag technique. It worked well! I also added a small UI element to update the score, making it feel more lively.
 
 ### Key Takeaways
-The world of Unity is vast. Many useful features are unknown, and some that leave you questioning their existence. However, while rummaging through documentation and videos and facing various problems, I learned to use the features much more confidently.
+The world of Unity is vast. Many useful features are unknown, and some leave you questioning their existence. However, while rummaging through documentation and videos and facing various problems, I learned to use the features much more confidently.
 
 ### What I Want to Try / Experiment Next
 I want to experiment with adding sound and make the game more enjoyable by introducing challenges. Additionally, I want to explore the idea of making it multiplayer. Let me give you a peek at what I had experimented with xd!
@@ -63,4 +63,17 @@ I want to experiment with adding sound and make the game more enjoyable by intro
 https://github.com/user-attachments/assets/b1fe4425-088c-44bc-9ac1-ad2d38e4c4b0
 
 
+## Design Journal Entry 2 : (02/05/2026)
 
+I spent the week brainstorming ideas on how to make Pawng more interesting. I also considered what features I could add to enhance the gameplay for players. I've created a mind map and done some low-fidelity prototyping for these potential features and additions. Unfortunately, I couldn't easily embed the PDF of my mind map, so you'll need to click the link to access it and review my thoughts. I kept the design simple and open to my imagination, without worrying too much about whether similar concepts already exist. Additionally, I started experimenting a bit with the Pawng code provided by Professor Matt. I won't be typing much today, as the PDF contains all my ideas from this past weekend!
+
+### What I learned 
+I have come to appreciate prototyping more. It helped me structure and reconsider a lot of things at the same time i got a pretty good idea on what I would really want to work on and what is possible given the time frame. 
+
+### Future Plans 
+My plan is pretty simple. I want to at least try to implement 2 -3 ideas that I brainstormed. Maybe by next week i will have a working prototype as well.
+
+Here are my ideas -->[Pawng.pdf](https://github.com/user-attachments/files/25107808/Pawng.pdf)
+
+
+ 

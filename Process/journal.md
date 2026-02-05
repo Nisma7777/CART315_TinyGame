@@ -56,4 +56,11 @@ Once I got these elements working, the fun part began: I wanted the color of the
 The world of Unity is vast. Many useful features are unknown, and some that leave you questioning their existence. However, while rummaging through documentation and videos and facing various problems, I learned to use the features much more confidently.
 
 ### What I Want to Try / Experiment Next
-I want to experiment with adding sound and make the game more enjoyable by introducing challenges. Additionally, I want to explore the idea of making it multiplayer.
+I want to experiment with adding sound and make the game more enjoyable by introducing challenges. Additionally, I want to explore the idea of making it multiplayer. Let me give you a peek at what I had experimented with xd!
+
+
+
+https://github.com/user-attachments/assets/b1fe4425-088c-44bc-9ac1-ad2d38e4c4b0
+
+
+

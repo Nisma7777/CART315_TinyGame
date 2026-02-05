@@ -73,7 +73,7 @@ I have come to appreciate prototyping more. It helped me structure and reconside
 ### Future Plans 
 My plan is pretty simple. I want to at least try to implement 2 -3 ideas that I brainstormed. Maybe by next week i will have a working prototype as well.
 
-Here are my ideas -->[Pawng.pdf](https://github.com/user-attachments/files/25107808/Pawng.pdf)
+Here are my ideas -->[Pawng Ideas](https://drive.google.com/file/d/17YiSY06i48bGyKBMxmCPviE8eo_LLX1o/view?usp=drive_link)
 
 
  

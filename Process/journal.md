@@ -76,4 +76,31 @@ My plan is pretty simple. I want to at least try to implement 2 -3 ideas that I 
 Here are my ideas -->[Pawng Ideas](https://drive.google.com/file/d/17YiSY06i48bGyKBMxmCPviE8eo_LLX1o/view?usp=drive_link)
 
 
+## Design Journal Entry 3 : (02/12/2026)
+This weekend, my main goal is to take my time, get more familiar with Unity and C#, and do some experimenting. Last class, I worked on a prototype called "BreakinWall," which might not be the correct title, but it has similar mechanics to my previous project, "Pawng." In BreakinWall, the goal isn’t to bounce a ball between paddles; instead, the aim is to hit bricks and prevent the ball from falling into the abyss.
+
+I came up with a couple of game features for Pawng that i worked on last week (Check out the Pawng.pdf). Rather than using the template given by Professor Matt, I decided to build a simpler version of Pong. Last time, I focused on the UI, but this time I aimed to work on the following:
+
+1. Make the paddles move.
+2. Make the ball collide with the paddles.
+3. Add a sound effect when the ball collides with a paddle.
+4. Change the size of the ball at regular intervals.
+5. Implement a scene transition to a Game Over screen when the ball misses the paddle and goes out of bounds.
+
+### What I Learned
+
+When I first started, I initially used an old-school approach for paddle movement by utilizing GetAxis for vertical movement. I quickly realized that was a mistake (too much work , then add additional code for the individual movement of the paddle) and that I should use Input.GetKey instead. This gives me the ability to control the object with the same functionality but allows for different key inputs. 
+
+Another mistake I made was related to making the ball bounce. I added a Physics Material instead of the correct Physics Material2D, which cost me some time. Despite these challenges, I completed four out of the five features I aimed for. I learned to be patient when I get stuck because frustration only leads to more mistakes.
+
+### Future Plan
+
+I wasn't able to add all the features I had planned, so I would like to continue working on them until I reach my goal of implementing at least two or three more features in this simple Pong game. That’s all from me for today! Let me share a short clip of what I worked on!
+
+
+
+
+https://github.com/user-attachments/assets/e754b2b4-b8e1-402b-8f0f-9b639cfe8be7
+
+
  

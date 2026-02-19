@@ -1,6 +1,6 @@
 # Weekly Class Journal
 
-## My Notes for class 2 ( Make a Thing ) : (01/22/2027)
+## My Notes for class 2 ( Make a Thing ) : (01/22/2026)
 
 **My First Game in Bitsy (A Painful Yet Rewarding Experience)**
 

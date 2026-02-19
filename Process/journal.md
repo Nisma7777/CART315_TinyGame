@@ -102,5 +102,50 @@ I wasn't able to add all the features I had planned, so I would like to continue
 
 https://github.com/user-attachments/assets/e754b2b4-b8e1-402b-8f0f-9b639cfe8be7
 
+## Design Journal Entry 4: (02/19/2026)
 
- 
+Today, I continued my exploration and implemented a couple of features I had brainstormed. It seems like I'm following a plan, and with each passing week, I'm making progress. However, I think I might work on this for one more week to add the UI and score manager and fix a couple of issues. After that, I might want to explore or implement a game idea I have in mind. It's not something very big; it's more small and simple. I'd like to create a dialogue-based game, but we will see. After today's class and the extra credit game analysis, I believe I will have a clearer idea.
+
+Now, let's continue with what I worked on today. To be honest, today was not the best in terms of coding! There was a lot of debugging, and the most frustrating part was that most of these issues were not logic errors. I simply forgot to attach the prefab or mistakenly attached scripts to the wrong components.
+
+### Main Aim and Sharing My Mistakes
+
+I wanted to work on the transition to the Game Over scene, which I couldn't accomplish last time, along with the multiplier features. I worked on two multipliers: OneX for increasing the size of the paddle by a certain offset and TwoX for increasing the number of balls. Additionally, I decided to create some pixel art and make PNGs for the multipliers.
+
+Let me walk you through it:
+
+1. The transition to another scene was simple, and I didn't spend much time on it. (But always remember, Future Nisma: when you want to transition to another scene, make sure it's included in the scene list. In Unity, go to File > Build Settings > Scenes In Build > Drag and drop your scene in there.) However, the multipliers took a hefty amount of my time. 
+
+   The idea was to create a spawner that could spawn these two multipliers at random locations within the main camera view. The other task was to write the scripts for the power-ups/multipliers to perform their specific functions. 
+
+   Once I finished coding and pressed play in Unity, the ball, for some reason, did not trigger anything when it collided with the multipliers. Before you ask if I added the Collider2D, enabled the isTrigger, or if the ball had a Rigidbody, let me tell you that the first mistake I found was that I had named the method "OnTriggerEnter2D" as "On**Triggered**Enter2D" (with "triggered" instead of "trigger"). Hmmm.
+
+   After fixing that, nothing changed, so I realized that there was indeed another problem. After burning a decent amount of time, I discovered that I hadn't attached the scripts of the multipliers to the prefab; instead, I attached them to a specific instance of the prefab, or you could say a single copy. So now the spawner was spawning the multipliers from a prefab that did not have any script attached to it, plus no collider. These were a couple of major mistakes I made.
+Following is the fast pixel art i did on the go .
+
+
+
+![Multiplier Art 1](https://github.com/user-attachments/assets/fab06783-6c2e-431a-993b-13e8923776be)
+
+![Multiplier Art 2](https://github.com/user-attachments/assets/97856c8a-e456-4ec4-b9ee-2f4f4bba36c7)
+
+### What I Learned
+
+I learned to be more patient with this process. It's not always about getting something polished or perfect. Often, we don't continue with our ideas simply because we fear they won't meet people's expectations. However, I have realized that we should take steps forward, whether we have a simple idea, a big idea, or no idea at all. We should start and not wait for the perfect setting. This game prototyping class is making me feel that way. I'm happy that I'm trying to create things, even if they are basic. What matters is that I am consistent.
+
+### Future Plans
+
+I would like to dedicate one more week to this project and try to add one more feature. Since I enjoy using colors and the current palette is a bit dull, I will probably enhance that. Additionally, creating a basic UI for tracking the score, timer, and life streak would be nice. After that, I want to explore a different genre of game, perhaps my own idea. We'll see! 
+
+For now, I have a couple of videos to share about my progress. (the first one is more focused on the ball multiplier/ Onex and second video is more focused on the Twox/paddle growth)
+
+
+
+https://github.com/user-attachments/assets/813ddf8e-c314-40e6-8e6b-1fac4f1edfb4
+
+
+
+
+
+https://github.com/user-attachments/assets/b8627dda-cde4-484c-b7f6-7a01d86d51c9
+

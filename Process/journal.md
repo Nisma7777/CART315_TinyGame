@@ -135,7 +135,7 @@ I learned to be more patient with this process. It's not always about getting so
 
 ### Future Plans
 
-I would like to dedicate one more week to this project and try to add one more feature. Since I enjoy using colors and the current palette is a bit dull, I will probably enhance that. Additionally, creating a basic UI for tracking the score, timer, and life streak would be nice. After that, I want to explore a different genre of game, perhaps my own idea. We'll see! 
+I would like to dedicate one more week to this project, if possible, and try to add one more feature. Since I enjoy using colors and the current palette is a bit dull, I will probably enhance that. Additionally, creating a basic UI for tracking the score, timer, and life streak would be nice. After that, I want to explore a different genre of game, perhaps my own idea. We'll see! 
 
 For now, I have a couple of videos to share about my progress. (the first one is more focused on the ball multiplier/ Onex and second video is more focused on the Twox/paddle growth)
 
@@ -149,3 +149,18 @@ https://github.com/user-attachments/assets/813ddf8e-c314-40e6-8e6b-1fac4f1edfb4
 
 https://github.com/user-attachments/assets/b8627dda-cde4-484c-b7f6-7a01d86d51c9
 
+## Design Journal Entry 5 : (02/23/2026)
+The last class was really fun. Initially, I didn't know what to expect from an Ideation Workshop with my peers. Most of the time, my process of brainstorming ideas involves sitting alone and writing my thoughts down on paper without considering the details. When I brainstorm, I keep all my options open without worrying about "how can I implement this?" In the past, when I had ideas, my mind would start thinking about other complexities, and I would instantly discard the idea. However, I have changed my workflow. We cannot predict the success of an idea, but it's worth noting down every single one of them. Sometimes it's nice to review where we started: what the initial idea was, how it evolved, and what major forces led to the change. Now, I can see what it has become.
+
+The Ideation Workshop introduced me to a new way of mixing and matching ideas. I never thought it could be this fun! The part of the workshop where we had to pair up with someone and each choose a word from our list of potential ideas generated a plethora of thoughts in my mind. The best part was that two brains were coming up with ideas some strange, some fun, and some strategy-based. The three rounds of that activity bombarded my brain with so many ideas that it was hard to keep track of them, so I kept noting down parts of those ideas. Ideation is a spontaneous process,  an idea can easily be lost if not stored somewhere.
+
+To give you a sneak peek into my list, within those five minutes, I noted down a couple of words and phrases (I might have misunderstood some, but regardless, it was worth it). Next, I can jump into my top three ideas that I was excited about.
+
+
+https://github.com/user-attachments/assets/e8283ee6-02f1-4b93-af8a-74bd4bf80020
+
+### THE TOP 3 IDEAS
+
+Instrument + Spices
+Crzy + Zombie
+Suburban + Meat 

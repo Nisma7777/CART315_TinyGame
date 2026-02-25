@@ -164,3 +164,9 @@ https://github.com/user-attachments/assets/e8283ee6-02f1-4b93-af8a-74bd4bf80020
 Instrument + Spices
 Crzy + Zombie
 Suburban + Meat 
+
+### Instrument + Spices
+This comnibination of words striked a fantadtic idea in my and my partners mind. the idea was to create a rhythm game and also somehow include the idea of spices via making delicious dishes by playing the correct notes. i even have a name for this game and that is " Melodicious " lol. 
+the idea is each round you eill have to play a melody and by playing it right you can collect ingredients . but with if play a wrong / disturbing note you lose ingredients . players do not have unlimited game so that enforces the idea of adding challenge 
+
+ its basically piano tiles plus cooking game xd .

@@ -166,7 +166,7 @@ Crazy + Zombie
 Suburban + Meat 
 
 ### Instrument + Spices
-This combination of words sparked a fantastic idea in my partner's and my minds. The idea was to create a rhythm game that also incorporates the concept of spices by allowing players to create delicious dishes through correct note sequences. I even have a name for this game: "Melodicious"! 
+This combination of words sparked a fantastic idea in my partner's and my mind. The idea was to create a rhythm game that also incorporates the concept of spices by allowing players to create delicious dishes through correct note sequences. I even have a name for this game: "Melodicious"! 
 
 The concept is that in each round, players will need to play a melody, and if they play it correctly, they can collect ingredients. However, if they play a wrong or disturbing note, they will lose ingredients. Players do not have unlimited attempts, which adds an extra layer of challenge.
 
@@ -185,7 +185,7 @@ https://github.com/user-attachments/assets/8f5b7819-2c7b-45f9-b1c5-029b45ea6e1a
 
 ### Prototyping Process Overview:
 
-If you're curious about what I used for the prototype, here's a breakdown. For the sound and visuals, I utilized Strudel and coded in some notes. Once that was complete, I screen recorded to capture about 27-30 seconds of footage. 
+If you're curious about what I used for the prototype, here's a breakdown. For the sound and visuals, I utilized Strudel ([STRUDEL](https://strudel.cc/workshop/getting-started/)) and coded in some notes. Once that was complete, I screen recorded to capture about 27-30 seconds of footage. 
 
 From there, I added quick game elements using a free video editing application on my tablet called "InShot." I then focused on fine-tuning the prototype to my liking. While I could have polished the prototype further, it was intended to be a quick version, so I didn't want to invest a lot of time in building low-fidelity prototypes. 
 
@@ -194,11 +194,11 @@ I believe that the real investment of time should come when you reach the stage 
 ### Crazy + Zombie
 This game follows two best friends, X and Y.
 
-X used to be human and lived a normal, happy life. His only close friend was Y — someone he deeply cared about. The only issue was that Y has always been mentally unstable and unpredictable, though still a loyal and dear friend.
+X used to be human and lived a normal, happy life. His only close friend was Y, someone he deeply cared about. The only issue was that Y has always been mentally unstable and unpredictable, though still a loyal and dear friend.
 
 Then the Earth is hit by a zombie apocalypse.
 
-Unfortunately, X becomes infected and turns into a zombie. However, unlike the others, he hasn’t completely lost his humanity. He still remembers who he is, and more importantly, he remembers Y. Inspired by the story Warm Bodies:[WARM BODIES](https://www.imdb.com/title/tt1588173/), X exists in a fragile state — physically a zombie, but mentally still human.
+Unfortunately, X becomes infected and turns into a zombie. However, unlike the others, he hasn’t completely lost his humanity. He still remembers who he is, and more importantly, he remembers Y. Inspired by the story Warm Bodies:[WARM BODIES](https://www.imdb.com/title/tt1588173/), X exists in a fragile state physically a zombie, but mentally still human.
 
 Everyone else is gone.
 
@@ -206,10 +206,26 @@ Y is the only person X has left.
 
 Now, X’s primary goal is to protect Y at all costs. But there’s a complication: Y’s unstable nature makes him unpredictable. He often forgets who X is, wanders into danger, or behaves irrationally. Because of this, X cannot simply guide him directly.
 
-Instead, the core gameplay revolves around indirect protection.
+Instead, **the core gameplay revolves around indirect protection.**
 
-X manipulates the environment to keep Y safe. If Y walks toward danger, X creates obstacles to block his path. If enemies approach, X diverts them. If Y makes reckless decisions, X adjusts the surroundings to prevent disaster. The player does not control Y — they protect him.
+**X manipulates the environment to keep Y safe. If Y walks toward danger, X creates obstacles to block his path. If enemies approach, X diverts them. If Y makes reckless decisions, X adjusts the surroundings to prevent disaster. The player does not control Y they protect him.**
 
 Alongside this, X has another urgent mission to find an antidote before he completely loses his remaining humanity. As time passes, his human consciousness slowly fades. If he fails to find a cure in time, he risks losing both himself and the only friend he has left.
 
+### Suburban + Meat: Game Concept
+At first, this combination felt extremely strange but also fascinating. We initially started with a darker direction a family moves into a suburban house and discovers large amounts of meat stored in the basement. As my peer and I continued discussing it, the concept began drifting toward something very dark and gory. That wasn’t the feeling we wanted. We made a mutual decision to step away from explicit horror and instead aim for something more subtle — slightly mysterious, a bit eerie, but still cozy and playful in tone.
+Then, while scrolling through Instagram reels, I came across a game called Creature Kitchen on Steam ([CREATURE KITCHEN] (https://store.steampowered.com/app/3097300/Creature_Kitchen/) ) . The concept of that game inspired me. In it, creatures live inside the house. They are not trying to eat you  they are simply hungry but confused about what they like. As the homeowner, it becomes your responsibility to experiment with food, discover their preferences, and feed them. That idea shifted my thinking completely. **Instead of meat representing something violent, it could represent connection.**
+
+
+![Creatrue Kitchen](https://github.com/user-attachments/assets/c98851d5-fbb7-459c-91fe-1c82cee2fdae)
+
+A family moves to a new town. They purchase a large suburban house at a surprisingly low price. It feels like a lucky deal. But they don’t immediately realize something is wrong. When they explore the house and reach the basement, they discover something shocking: multiple industrial freezers filled with large quantities of meat. Different varieties beef, mutton, minced meat, chops arecarefully stored and organized. The amount is overwhelming. They are confused and disturbed. Why would the previous homeowner leave this behind?
+
+They attempt to contact him, but he is unreachable. At the same time, the town’s atmosphere feels off. The neighbors seem distant. There’s visible distrust and unhappiness in their eyes. Conversations feel cold. The family senses they are not welcome. What they don’t know is something far more serious: The previous homeowner had secretly signed a contract with a local town committee to demolish the house. The sale was rushed. The demolition was planned. The neighbors are aware of this agreement. The family has unknowingly walked into a situation where their home might not even be permanent.
+**Time is limited.**
+
+Seeing the distrust in the neighbor's eyes and realizing they are running out of time, the family understands they need to integrate into the community quickly. They need to change how the town sees them. They remember “food is the gateway to love” And suddenly, the basement full of meat becomes an opportunity instead of a threat.
+
+### Future Plan
+After the ideation workshop, as you can see, my mind is buzzing with ideas. I am considering to start working on a specific idea and seeing it through to completion (plan is to  keep the scope small and achievable HOPEFULLY!!). This idea may be inspired by the concepts discussed earlier or could be something entirely new. I have yet to decide. I plan to use my reading week to finalize and determine what I actually want to pursue. Till then take care xd!
 

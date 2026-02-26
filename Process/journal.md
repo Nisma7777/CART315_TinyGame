@@ -162,11 +162,54 @@ https://github.com/user-attachments/assets/e8283ee6-02f1-4b93-af8a-74bd4bf80020
 ### THE TOP 3 IDEAS
 
 Instrument + Spices
-Crzy + Zombie
+Crazy + Zombie
 Suburban + Meat 
 
 ### Instrument + Spices
-This comnibination of words striked a fantadtic idea in my and my partners mind. the idea was to create a rhythm game and also somehow include the idea of spices via making delicious dishes by playing the correct notes. i even have a name for this game and that is " Melodicious " lol. 
-the idea is each round you eill have to play a melody and by playing it right you can collect ingredients . but with if play a wrong / disturbing note you lose ingredients . players do not have unlimited game so that enforces the idea of adding challenge 
+This combination of words sparked a fantastic idea in my partner's and my minds. The idea was to create a rhythm game that also incorporates the concept of spices by allowing players to create delicious dishes through correct note sequences. I even have a name for this game: "Melodicious"! 
 
- its basically piano tiles plus cooking game xd .
+The concept is that in each round, players will need to play a melody, and if they play it correctly, they can collect ingredients. However, if they play a wrong or disturbing note, they will lose ingredients. Players do not have unlimited attempts, which adds an extra layer of challenge.
+
+Essentially, it's a mix of piano tiles and a cooking game!
+
+I created a prototype that I believe combines look and role prototyping, which would be categorized as low-fidelity prototyping. Here's a gof and to actual enjoy with audio watch the video XD!. The goal is simple to collect the number of ingredients mentioned (in the video we are trying to make a cheesecake) so collect all the ingredients make a delicious cheescake!!
+
+
+![InShot_20260226_115926516](https://github.com/user-attachments/assets/63780998-8b44-4e86-bbbb-f7c80c7931e8)
+
+**The Video with Audio**
+
+
+
+https://github.com/user-attachments/assets/8f5b7819-2c7b-45f9-b1c5-029b45ea6e1a
+
+### Prototyping Process Overview:
+
+If you're curious about what I used for the prototype, here's a breakdown. For the sound and visuals, I utilized Strudel and coded in some notes. Once that was complete, I screen recorded to capture about 27-30 seconds of footage. 
+
+From there, I added quick game elements using a free video editing application on my tablet called "InShot." I then focused on fine-tuning the prototype to my liking. While I could have polished the prototype further, it was intended to be a quick version, so I didn't want to invest a lot of time in building low-fidelity prototypes. 
+
+I believe that the real investment of time should come when you reach the stage of creating a functional prototype. That's when you can afford to spend more time and make it much more polished.
+
+### Crazy + Zombie
+This game follows two best friends, X and Y.
+
+X used to be human and lived a normal, happy life. His only close friend was Y — someone he deeply cared about. The only issue was that Y has always been mentally unstable and unpredictable, though still a loyal and dear friend.
+
+Then the Earth is hit by a zombie apocalypse.
+
+Unfortunately, X becomes infected and turns into a zombie. However, unlike the others, he hasn’t completely lost his humanity. He still remembers who he is, and more importantly, he remembers Y. Inspired by the story Warm Bodies:[WARM BODIES](https://www.imdb.com/title/tt1588173/), X exists in a fragile state — physically a zombie, but mentally still human.
+
+Everyone else is gone.
+
+Y is the only person X has left.
+
+Now, X’s primary goal is to protect Y at all costs. But there’s a complication: Y’s unstable nature makes him unpredictable. He often forgets who X is, wanders into danger, or behaves irrationally. Because of this, X cannot simply guide him directly.
+
+Instead, the core gameplay revolves around indirect protection.
+
+X manipulates the environment to keep Y safe. If Y walks toward danger, X creates obstacles to block his path. If enemies approach, X diverts them. If Y makes reckless decisions, X adjusts the surroundings to prevent disaster. The player does not control Y — they protect him.
+
+Alongside this, X has another urgent mission to find an antidote before he completely loses his remaining humanity. As time passes, his human consciousness slowly fades. If he fails to find a cure in time, he risks losing both himself and the only friend he has left.
+
+

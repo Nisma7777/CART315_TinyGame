@@ -179,11 +179,6 @@ Its strengths include:
 * High visual detail
 * Respect for past games
 
-After binge-watching the walkthrough, I was reminded why I’ve followed this franchise for years. It respects its characters and its players.
-Good job, Capcom.
+After binge-watching the walkthrough, I was reminded why I have followed this franchise for years. It respects its characters and its players. Good job, Capcom.
 
 ---
-
-
-
-Tell me the vibe your professor prefers.

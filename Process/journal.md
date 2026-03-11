@@ -229,3 +229,16 @@ Seeing the distrust in the neighbor's eyes and realizing they are running out of
 ### Future Plan
 After the ideation workshop, as you can see, my mind is buzzing with ideas. I am considering to start working on a specific idea and seeing it through to completion (plan is to  keep the scope small and achievable HOPEFULLY!!). This idea may be inspired by the concepts discussed earlier or could be something entirely new. I have yet to decide. I plan to use my reading week to finalize and determine what I actually want to pursue. Till then take care xd!
 
+
+### Design Journal Entry 6 : (03/11/2026)
+
+Working on spawning notes based of the beats of the tune 
+LAst week i did work on preparing the structure for my rhythm game for protoyping purposes i have chosen a freesound track so i can kind of learn how to spawn visuals or in our case notes based of notes . 
+I was able to hardcode a couple of notes and spawn them even before that i made beat clock so i can use it as reference to spawn notes . 
+But to day i plan on making a Spawner that can keep on generating the notes based as long as the track is being played .
+
+But now i realized automating the spawning process might make the rhythm game very monotonous . 
+So i will create my own chart and hardcode some notes and add variation kind of make it a tad bit of difficult 
+
+I will keep you updated on any hurdles faced and how to overcome those xd 
+

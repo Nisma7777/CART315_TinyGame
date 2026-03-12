@@ -331,7 +331,12 @@ In simpler terms:
 
 After implementing this adjustment, the notes finally spawned in the correct positions and moved as expected.
 
-*(A video demonstrating the result is attached.)*
+
+![ezgif-870e745fca3e6d11](https://github.com/user-attachments/assets/408623ba-f315-47a7-bf22-c6c4c3e87b46)
+
+My Note Chart (Xd too long)
+
+<img width="703" height="812" alt="image" src="https://github.com/user-attachments/assets/bbcf6c94-bc37-45b6-8798-05e0f5595c4f" />
 
 
 

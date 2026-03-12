@@ -369,6 +369,8 @@ In addition to the gameplay mechanics, I will also begin working on:
 * The **scoring system**
 * Ingredient collection mechanics tied to rhythm performance
 
-These are the main goals for the upcoming week.![Uploading giphy.gif…]()
+These are the main goals for the upcoming week.
+
+![giphy](https://github.com/user-attachments/assets/3e10776a-b6ec-4bf3-8ffb-5b60062822a5)
 
 

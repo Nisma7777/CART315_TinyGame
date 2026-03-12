@@ -1,4 +1,6 @@
-# Weekly Class Journal
+
+# Weekly Class Journal ![New Piskel (2)](https://github.com/user-attachments/assets/8c9c1bf6-ac84-4008-ac1c-4495a43fd048) 
+
 
 ## My Notes for class 2 ( Make a Thing ) : (01/22/2026)
 
@@ -367,5 +369,6 @@ In addition to the gameplay mechanics, I will also begin working on:
 * The **scoring system**
 * Ingredient collection mechanics tied to rhythm performance
 
-These are the main goals for the upcoming week.
+These are the main goals for the upcoming week.![Uploading giphy.gif…]()
+
 

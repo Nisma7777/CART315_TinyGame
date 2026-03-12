@@ -229,16 +229,138 @@ Seeing the distrust in the neighbor's eyes and realizing they are running out of
 ### Future Plan
 After the ideation workshop, as you can see, my mind is buzzing with ideas. I am considering to start working on a specific idea and seeing it through to completion (plan is to  keep the scope small and achievable HOPEFULLY!!). This idea may be inspired by the concepts discussed earlier or could be something entirely new. I have yet to decide. I plan to use my reading week to finalize and determine what I actually want to pursue. Till then take care xd!
 
+# Design Journal Entry 6 (03/11/2026)
 
-### Design Journal Entry 6 : (03/11/2026)
+After taking some time to reflect, discussing my ideas with friends and family, and thinking through the feedback from class, I decided to move forward with creating a **rhythm game inspired by the cooking + instrument keyword pairing** from the previous brainstorming exercise.
 
-Working on spawning notes based of the beats of the tune 
-LAst week i did work on preparing the structure for my rhythm game for protoyping purposes i have chosen a freesound track so i can kind of learn how to spawn visuals or in our case notes based of notes . 
-I was able to hardcode a couple of notes and spawn them even before that i made beat clock so i can use it as reference to spawn notes . 
-But to day i plan on making a Spawner that can keep on generating the notes based as long as the track is being played .
+Explaining my ideas in class and hearing different perspectives helped me think more critically about my direction. During the last class, Professor Matt asked whether I would choose one idea from my top three concepts. At that moment, I was honestly considering abandoning all three ideas and starting something entirely different. I definitely did not expect that I would end up making a **rhythm game involving audio**, but the direction slowly evolved as I reflected on the discussions.
 
-But now i realized automating the spawning process might make the rhythm game very monotonous . 
-So i will create my own chart and hardcode some notes and add variation kind of make it a tad bit of difficult 
 
-I will keep you updated on any hurdles faced and how to overcome those xd 
+## What Exactly Changed?
+
+After the discussion with Professor Matt and Nat, I started thinking more deeply about rhythm games as a genre. While there are already many rhythm games out there, the question that came to mind was: *what would make mine enjoyable or unique?*
+
+The first idea that emerged was the possibility of building a **custom controller specifically designed for the game**. Since the gameplay would primarily involve four lanes of notes, it felt natural to experiment with a **four-button controller**. This decision added an interesting hardware component to the project.
+
+Once that idea formed, I began researching tutorials and the components required to build such a controller. Surprisingly, the process did not seem overly complicated. I have already ordered the basic parts needed to begin prototyping the controller.
+
+The main components include:
+
+* A microcontroller (**ESP32**)
+* **Arcade-style push buttons** to give satisfying tactile feedback
+* A **breadboard** for initial testing
+* **Jumper wires** for wiring the circuit
+
+These are the essential parts needed for the first prototype. If the controller works successfully, I plan to design a **3D-printed enclosure** to house the components.
+
+At the moment, I am still deciding how the controller will communicate with the game. There are two possible approaches:
+
+* Sending signals via **Bluetooth**
+* Using a **USB-C wired connection**
+
+I will explore both options later and determine which approach works best for the prototype.
+
+
+
+## What Did I Achieve This Week?
+
+This week I focused on building the **basic technical foundation** for the rhythm game.
+
+For prototyping purposes, I selected a **free audio track from Freesound** so I could experiment with spawning notes based on the music. Before implementing the spawning system, I first needed a way to measure the rhythm of the track.
+
+To solve this, I created a **beat clock**.
+
+A beat clock calculates the current beat value of the audio track in real time. Since the notes in a rhythm game must appear in sync with the music, this beat value acts as the reference for spawning notes.
+
+The first major step was creating a **Conductor script**, which is responsible for tracking the beat progression of the song.
+
+After that, I implemented two additional scripts:
+
+* **NoteSpawner**
+* **NoteMover**
+
+The **NoteSpawner** script contains the `Note` class, which defines the parameters needed to create a note object. At this stage, the note class includes three properties:
+
+* lane number
+* beat number
+* tap value (planned for future implementation)
+
+The spawner then calls a function named `Spawn`, which takes a note as a parameter and generates a circular note object at the appropriate lane position.
+
+To handle movement, I created the **NoteMover** script. This script moves the note vertically from the **lane spawn position** to the **lane hit position**, ensuring the notes travel down the screen toward the player in sync with the music.
+
+
+## The Hurdles
+
+![giphy](https://github.com/user-attachments/assets/3770652a-a983-4ff9-bea8-de4e3b86c80d)
+
+Since this was the first step in building the system, it was unrealistic to expect everything to work perfectly on the first attempt — and it definitely did not.
+
+After writing the scripts and connecting everything together, I pressed the play button. The notes were spawning, which was encouraging, but they were **not appearing in the correct positions**.
+
+My first suspicion was that the problem came from the **UI arrays used in the Inspector** for referencing the spawn points and hit points of each lane. I assumed that perhaps the elements were not ordered correctly in the Inspector.
+
+However, that turned out not to be the real issue.
+
+The actual problem was related to **coordinate space translation**.
+
+In Unity UI systems, coordinates can exist in different reference frames depending on their parent objects. This meant that the positions from my spawn points were not being interpreted correctly when applied to the spawned note objects.
+
+To solve this, I created a new empty UI object called **`NotesLayer`**, which acts as a common parent for all notes. This layer ensures that all note positions are calculated within the same coordinate space.
+
+The analogy that helped me understand this problem was the following:
+
+Think of it like this:
+
+* The **spawn point** gives a location in **Map A**.
+* The note moves using `anchoredPosition`, which belongs to **Map B** (its parent’s coordinate system).
+* If you copy coordinates from Map A directly into Map B, the note will appear in the wrong location.
+
+The function `ToLocalPointInParent` essentially acts as a **translator** between these coordinate spaces.
+
+### Why `NotesLayer` Helps
+
+* It creates one consistent coordinate system for all notes.
+* Spawn points and hit points are translated into that same coordinate system.
+* This prevents notes from drifting into the wrong lane.
+
+In simpler terms:
+
+* **`NotesLayer` = one ruler used by all notes**
+* **`ToLocalPointInParent` = a tool that converts measurements to match that ruler**
+
+After implementing this adjustment, the notes finally spawned in the correct positions and moved as expected.
+
+*(A video demonstrating the result is attached.)*
+
+
+
+## Future Plans
+
+Now that the notes are spawning correctly, my next goal is to **design the actual rhythm chart**.
+
+Next week I plan to:
+
+* Listen carefully to the audio track
+* Manually create a **note spawn chart**
+* Synchronize the chart with the music
+* Adjust note patterns to make the gameplay both **challenging and enjoyable**
+
+After the chart is working properly, the next systems I plan to develop include:
+
+* **Variable note speed**, so different notes can travel at different speeds
+* **Multi-tap notes**, where certain notes require multiple presses
+
+For example:
+
+* **Note1** may require one tap
+* **Note3** might require three taps to score or collect an ingredient
+
+In addition to the gameplay mechanics, I will also begin working on:
+
+* The **controller prototype**
+* The **scoring system**
+* Ingredient collection mechanics tied to rhythm performance
+
+These are the main goals for the upcoming week.
 

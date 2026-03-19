@@ -374,3 +374,83 @@ These are the main goals for the upcoming week.
 ![giphy](https://github.com/user-attachments/assets/3e10776a-b6ec-4bf3-8ffb-5b60062822a5)
 
 
+## Design Journal Entry 7 (03/19/2026)
+
+This week, I could not spend as much time on the project as I wanted, but I still implemented 1–2 items from last week’s plan.
+
+Since note spawning was already working, I focused on the next core feature: **hit mechanics** (what counts as a hit vs. a miss).  
+After that, I added **quick textual judgement feedback** (Perfect/Good/OK) based on timing. This part still needs improvement, but it already makes the game feel more fun because rhythm games depend heavily on instant feedback.
+
+I also showed my prototype to peers and got many useful suggestions. The most repeated feedback was to improve the feedback/judgement system, which I agree is important.
+
+Good news: I had mentioned that I wanted to build a controller, and my **arcade buttons have arrived**. Once the prototype is more stable, I will start working on the physical controller.
+
+---
+
+## What I Worked On
+
+1. Hitting mechanics  
+2. Simple textual feedback
+
+### 1) Hitting Mechanics
+
+While implementing hits, I had to think carefully about how to detect valid taps and how to use the hit line.  
+I kept the logic simple:
+
+- A note is hittable if it is on screen in the correct lane
+- The note must not have passed the hit line yet
+
+To test this, I used keyboard input (since the controller is not ready yet).
+
+At first, taps did not work correctly. Notes should have disappeared on successful hits, but they did not.
+
+#### Problem I Faced (simple explanation)
+
+My old `HitManager` logic chose notes by **absolute beat difference** only:
+
+1. Loop through all active notes in that lane  
+2. Compute `diff = Mathf.Abs(songPositionBeats - hitBeat)`  
+3. Pick the note with the smallest `diff`  
+4. Judge as Perfect/Good/Miss from that value
+
+This caused inconsistent behavior because it focused on timing difference alone, not whether the note was truly in the correct hittable state on screen.
+
+### 2) Textual Feedback
+
+This part was easier to add. I created a TextMeshPro UI text, made a judgment script, and showed messages like:
+
+- Perfect
+- Good
+- OK
+
+based on timing windows.
+
+I also have a gif showing this feedback system working.
+
+
+![ezgif-88cb683127b0dbae](https://github.com/user-attachments/assets/12454d83-733f-4fd2-9daf-d72b9b26afb8)
+
+---
+
+## Reflection
+
+This week’s progress was small but important.  
+The game now has basic hit detection and immediate judgement feedback, which are both core to rhythm gameplay.  
+The feedback system is still basic, so I want to make it more expressive and satisfying.
+
+---
+
+## Future Plans
+
+1. Finish/improve judgement feedback, then implement a scoring manager and multi-tap/chord detection  
+2. Start building the controller  
+3. Add ingredient game logic:
+   - Increase ingredient count on successful hits
+   - Decrease ingredient count on misses
+
+These are my main goals for the coming days.
+Let's keep on going !!
+![200](https://github.com/user-attachments/assets/fda5b506-2d28-4ab0-a5be-1090cacf6961)
+
+
+

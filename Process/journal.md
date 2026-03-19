@@ -442,11 +442,12 @@ The feedback system is still basic, so I want to make it more expressive and sat
 
 ## Future Plans
 
-1. Finish/improve judgement feedback, then implement a scoring manager and multi-tap/chord detection  
+1. Finish/improve judgment feedback, then implement a scoring manager and multi-tap/chord detection  
 2. Start building the controller  
 3. Add ingredient game logic:
    - Increase ingredient count on successful hits
    - Decrease ingredient count on misses
+4. Another thing to add: Different sounds, especially for the missed sounds 
 
 These are my main goals for the coming days.
 Let's keep on going !!

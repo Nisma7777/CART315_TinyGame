@@ -451,7 +451,48 @@ The feedback system is still basic, so I want to make it more expressive and sat
 
 These are my main goals for the coming days.
 Let's keep on going !!
+
+
 ![200](https://github.com/user-attachments/assets/fda5b506-2d28-4ab0-a5be-1090cacf6961)
 
+## Design Journal Entry 8 (03/26/2026)
+
+This week I focused on polishing the core mechanics so the game actually feels like a rhythm game. We’re close to the final prototype deadline, but I still believe I can pull this through.
+
+### What I worked on
+
+My priority list this week was:
+
+1. Tap mechanics and note variability  
+2. Building a better chart of hit notes  
+3. Adding feedback so players know when to hit  
+4. Starting the scoring manager (planning to finish by Friday)
+
+### Problems I faced
+
+Of course there were issues, xd.
+
+The main one was: how does the player know the perfect hit timing?  
+My setup is that the perfect timing is just before the note disappears. To make that understandable, I added a visual cue: when a note reaches hit timing, it turns green and gets bigger.
+
+At first, I thought this wasn’t working. The problem was a dummy horizontal line in the scene that I had used earlier just for visual reference. It wasn’t connected to gameplay, but in the Canvas hierarchy it sat above the notes, so the notes looked like they were disappearing. They were actually just moving behind that line.
+
+The actual note “death point” depends on where I placed the lane hit UI objects in the Unity scene.
+
+So yeah, I spent a while debugging something that was technically working already.
+
+Lesson learned: remove temporary scene objects you added impulsively at the start, xd.
+
+For tap mechanics, implementation was mostly smooth. No major logic bugs, mostly minor typos (like tag name mismatch in `CompareTag()`).
+
+### Future plans
+
+Small list for next steps:
+
+1. Build first controller prototype (don’t delay this; might switch to Teensy if ESP32 is too buggy)  
+2. Ingredient illustrations  
+3. Reach a semi-polished prototype
+
+Semester end is getting intense, but I still believe we can make this game happen, xd. (I DO HAVE A VIDEO OF THE SMALL SUCCESSES , I WILL SOON POST IT )
 
 

@@ -499,7 +499,39 @@ Semester end is getting intense, but I still believe we can make this game happe
 
 ## Design Journal Entry 9 : (02/04/2026)
 
-This i primarily worked on the UI and Score Manager. 
+This week, my plan was straightforward. Since the core gameplay logic was already working, my next task was to focus on the UI and define the scoring system for my rhythm game.
+
+The process involved a lot of trial and error. Early on, I only had a rough scoring idea: hitting notes would collect ingredients. This week, I spent more time turning that into a clear and consistent scoring system.
+
+I also planned to test the physical controller, but I could not start because my soldering gun was not at home. I need it to solder wires to the buttons before building the circuit. Once I get it back, I will continue that part.
+
+### What I did
+I mainly worked on two things: the scoring manager and a basic UI.
+
+For scoring, I used timing windows tied to judgement labels: **PERFECT**, **GOOD**, **OK**, and **MISS**.  
+Judgement is based on how close the input timing is to the note’s hit time.
+
+I connected judgement results to ingredient collection:
+- **PERFECT** = +2 ingredients  
+- **GOOD** = +1 ingredient  
+- **OK** = +0.5 ingredient (may change later)  
+- **MISS** = +0 ingredient
+
+Each note already has metadata (ingredient type), so the collected ingredient is linked directly to the note the player hits.
+
+For UI, I built a sidebar mockup with ingredient rows and added a sidebar script that updates each ingredient’s progress in real time.
+
+### Main problems faced (too concise xd )
+1. Judgement text was not showing due to a coroutine-start logic issue in the UI script.  
+2. Scoring design was initially vague and had to be formalized into a clear ruleset.  
+3. Controller prototyping was blocked by missing soldering equipment.
+
+### Current status
+This week, I completed a working scoring flow and a functional sidebar UI update system.  
+Next step is to resume controller hardware setup once soldering tools are available. And if I have luxury of time draw some assets xd . Till then ciaa!!!!
+
+(I will soon post a video of the changes and work done in unity )
 
 
+![200](https://github.com/user-attachments/assets/902ee407-dff8-4cd0-84d2-8195fc3e1c25)
 

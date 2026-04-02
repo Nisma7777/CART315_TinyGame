@@ -495,4 +495,5 @@ Small list for next steps:
 
 Semester end is getting intense, but I still believe we can make this game happen, xd. (I DO HAVE A VIDEO OF THE SMALL SUCCESSES , I WILL SOON POST IT )
 
+![FinalProject - SampleScene - Windows, Mac, Linux - Unity 6 3 LTS (6000 3 5f1)_ _DX12_ 2026-03-19 17-11-45](https://github.com/user-attachments/assets/e1f96c6c-5936-4884-b1d8-844c51523c96)
 

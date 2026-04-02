@@ -497,3 +497,9 @@ Semester end is getting intense, but I still believe we can make this game happe
 
 ![FinalProject - SampleScene - Windows, Mac, Linux - Unity 6 3 LTS (6000 3 5f1)_ _DX12_ 2026-03-19 17-11-45](https://github.com/user-attachments/assets/e1f96c6c-5936-4884-b1d8-844c51523c96)
 
+## Design Journal Entry 9 : (02/04/2026)
+
+This i primarily worked on the UI and Score Manager. 
+
+
+

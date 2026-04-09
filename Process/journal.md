@@ -497,7 +497,7 @@ Semester end is getting intense, but I still believe we can make this game happe
 
 ![FinalProject - SampleScene - Windows, Mac, Linux - Unity 6 3 LTS (6000 3 5f1)_ _DX12_ 2026-03-19 17-11-45](https://github.com/user-attachments/assets/e1f96c6c-5936-4884-b1d8-844c51523c96)
 
-## Design Journal Entry 9 : (02/04/2026)
+## Design Journal Entry 9 : (04/02/2026)
 
 This week, my plan was straightforward. Since the core gameplay logic was already working, my next task was to focus on the UI and define the scoring system for my rhythm game.
 
@@ -534,4 +534,16 @@ Next step is to resume controller hardware setup once soldering tools are availa
 
 
 ![200](https://github.com/user-attachments/assets/902ee407-dff8-4cd0-84d2-8195fc3e1c25)
+
+## Design Journal Entry 10 : (04/09/2026)
+
+Let me start with, "Oh Lord, what a week!" I would say this was one of the most exhausting weeks I've had. Finally, I started working on my controller. If I had been told to start earlier, I would have. During the initial stages of prototyping, the process was relatively easy. The logic of the controller is insanely simple, but the wiring and connections are where I messed up quite a few times. My fingers were getting rough each time I picked up the soldering gun to connect the wires.
+
+The first mistake was that the base of the controller didn't have a proper spot to secure the ESP32, so it kept on shifting. The second huge mistake was that everything was working and I had made the correct connections, but I made a dumb mistake—I forgot to put the buttons inside the box! After several reattempts, the controller finally started working, but I’m still worried about the wiring. I hope at least 1-3 people will get to test my prototype.
+
+I will be posting lots of images of my entire controller prototyping process soon.
+
+As for the game, I am on the last stage. I managed to hand-draw a couple of assets; the rest I had to source externally. I was able to create a sidebar with all the ingredients, but I still need to finish the summary chart. I think that’s fine, at least I have something to play with.
+
+I have lots to write in this journal, and I will be updating it soon. There are so many things I want to share!
 

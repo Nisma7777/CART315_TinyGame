@@ -564,7 +564,7 @@ Let me give you a sneak peek into the game screen I made and the actual visuals 
 In this journal, I have more to show than to explain , likely because I have reached the final stage of prototyping. But I think it's time to wrap up now xd!!
 
 
-## $${\color{green} Design \space Journal \space : \space Final \space Reflection}$$
+## $${\color{green} Design \space Journal \space : \space Final \space Reflection \space (04/16/26)}$$
 
 Oh my, what a semester! If I had to describe it in GIF language, it would be -->  
 <img width="560" height="560" alt="giphy" src="https://github.com/user-attachments/assets/c7b0f1f4-fa7e-4516-a21d-46373185dd8d" />

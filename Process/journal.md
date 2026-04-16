@@ -564,4 +564,52 @@ Let me give you a sneak peek into the game screen I made and the actual visuals 
 In this journal, I have more to show than to explain , likely because I have reached the final stage of prototyping. But I think it's time to wrap up now xd!!
 
 
+## $${\color{green} Design \space Journal \space : \space Final \space Reflection}$$
+
+Oh my, what a semester! If I had to describe it in GIF language, it would be -->  
+<img width="560" height="560" alt="giphy" src="https://github.com/user-attachments/assets/c7b0f1f4-fa7e-4516-a21d-46373185dd8d" />
+
+This course taught me that you can have many ideas at the same time and, instead of feeling overwhelmed, use a pen, paper, or any object that can help you create a low-fidelity prototype. Never judge! be open and do not immediately discard an idea. Use the power of prototyping to create small-scale look/feel/role prototypes, gather instant feedback, and iterate. It's about being patient while working with an idea and making use of the feedback received.
+
+A few weeks back, I found myself in a similar situation where I couldn't decide among the plethora of ideas I had. The final game that I ended up creating didn't even exist a few weeks prior. It was an idea that popped up during the ideation workshop. I emphasize this because sometimes ideas come unexpectedly. So, what should one do? Take a chance or a risk and pursue it; at least you'll gain a lot of experience.
+
+That's exactly what I did I pursued my idea of building a rhythm game. I had never worked within this genre, so it was all new to me. I had to figure out how to design the logic and convert the audio into something I could use to spawn the notes. Additionally, I wanted to incorporate the concept of cooking, so I transformed the rhythm game into a rhythm + collection game where players had to collect ingredients for a recipe by hitting the notes perfectly. As if that wasn't enough, I also decided to take on the challenge of building my own controller. By the last week of the course, I was able to produce a prototype version of the game, which I named "Meloidicious." Then it was time for others to test the prototype and provide feedback. I received valuable constructive feedback, which I noted down so I can revisit and modify the game based on what I learned in the future.
+
+### The Feedback I Received
+Since it was a rhythm game, many of my peers initially commented that the game was quite fast overall. They noted that the pace at which the notes were spawned was too quick. I agreed it was fast, but the track I had chosen was also a bit more upbeat than usual. I could have skipped a couple of notes instead of spawning one for each beat.
+
+Another major piece of feedback was to add a horizontal line to indicate the perfect timing for hitting notes. I had originally planned to include this feature but, for some reason, dropped it. I considered using color changes and scaling to serve as visual cues for a perfect hit, but it seems the horizontal line is a much better choice.
+
+Fortunately, the controller worked well, but several players suggested that if the controller were rectangular and horizontal instead of square, it would reduce the confusion caused while playing . The square controller was originally coordinated with the lane color, but after major modifications to the code, it kind of switched XD!.
+
+Another interesting suggestion was to provide visual feedback, not in the form of text, but through images of the ingredients being collected. This way, players could track the ingredients that have already been collected and skip some notes as well.
+
+While receiving this feedback, another idea came to mind—making the game a co-op multiplayer experience is also a possibility!
+
+
+### Final Reflection
+
+Overall, I feel quite content with what I have produced. This course has laid the foundation for me to bring many more ideas to life. I fully intend to experiment further and apply the knowledge I’ve gained to any project I take on. I feel more confident in my ability to design games not just coding logic, but also starting with an idea, managing the scope, and iterating and modifying based on feedback. Most importantly, I've learned to enjoy the process and keep a journal to record what I have been doing, which allows me to track changes in my ideas and thoughts.
+Before I go, I want to share a snippet of how the controller looked and a small game experience I had while playing!
+
+<img width="900" height="2000" alt="controller" src="https://github.com/user-attachments/assets/f67fd6b5-9a5d-405a-b203-2eae0584c1b6" />
+
+The tiny gameplay I had to test. Apologies for the bad quality (I tried compressing the file its too big, so you will have to view it on another tab )
+[MelodiciousGamePlay](https://drive.google.com/file/d/14Q3XlIBy3aOigfbD_SnBz86wSBAAu4qg/view?usp=sharing)
+
+BUT BEFORE I LEAVE, I WOULD LIKE TO THANK MY PROFESSOR FOR THIS COURSE, **PROFESSOR MATTHEW**. Thank you for sharing all the knowledge with us and for making this class fun.
+
+
+
+<img width="480" height="480" alt="giphy" src="https://github.com/user-attachments/assets/25320b93-1337-4fa5-93d9-486ef33cd9df" />
+
+Until next time, take care and Sayonara!
+
+
+
+
+
+
+
+
 

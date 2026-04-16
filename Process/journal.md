@@ -594,7 +594,7 @@ Before I go, I want to share a snippet of how the controller looked and a small 
 
 <img width="900" height="2000" alt="controller" src="https://github.com/user-attachments/assets/f67fd6b5-9a5d-405a-b203-2eae0584c1b6" />
 
-The tiny gameplay I had to test. Apologies for the bad quality (I tried compressing the file its too big, so you will have to view it on another tab )
+The tiny gameplay I had recorded while testing. Apologies for the bad quality (I tried compressing the file its too big, so you will have to view it on another tab )
 [MelodiciousGamePlay](https://drive.google.com/file/d/14Q3XlIBy3aOigfbD_SnBz86wSBAAu4qg/view?usp=sharing)
 
 BUT BEFORE I LEAVE, I WOULD LIKE TO THANK MY PROFESSOR FOR THIS COURSE, **PROFESSOR MATTHEW**. Thank you for sharing all the knowledge with us and for making this class fun.

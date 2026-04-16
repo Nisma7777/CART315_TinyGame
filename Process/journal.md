@@ -564,7 +564,7 @@ Let me give you a sneak peek into the game screen I made and the actual visuals 
 In this journal, I have more to show than to explain , likely because I have reached the final stage of prototyping. But I think it's time to wrap up now xd!!
 
 
-## $${\color{green} Design \space Journal \space : \space Final \space Reflection \space (04/16/26)}$$
+## Design Journal: Final Reflection (04/16/26)
 
 Oh my, what a semester! If I had to describe it in GIF language, it would be -->  
 <img width="560" height="560" alt="giphy" src="https://github.com/user-attachments/assets/c7b0f1f4-fa7e-4516-a21d-46373185dd8d" />
@@ -591,6 +591,8 @@ While receiving this feedback, another idea came to mind—making the game a co-
 
 Overall, I feel quite content with what I have produced. This course has laid the foundation for me to bring many more ideas to life. I fully intend to experiment further and apply the knowledge I’ve gained to any project I take on. I feel more confident in my ability to design games not just coding logic, but also starting with an idea, managing the scope, and iterating and modifying based on feedback. Most importantly, I've learned to enjoy the process and keep a journal to record what I have been doing, which allows me to track changes in my ideas and thoughts.
 Before I go, I want to share a snippet of how the controller looked and a small game experience I had while playing!
+
+If you are interested in my workflow you can visit the repository for my Rhythm Game --> [Melodicious Repo](https://github.com/Nisma7777/CART315_FinalProject.git)
 
 <img width="900" height="2000" alt="controller" src="https://github.com/user-attachments/assets/f67fd6b5-9a5d-405a-b203-2eae0584c1b6" />
 

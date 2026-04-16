@@ -541,9 +541,27 @@ Let me start with, "Oh Lord, what a week!" I would say this was one of the most 
 
 The first mistake was that the base of the controller didn't have a proper spot to secure the ESP32, so it kept on shifting. The second huge mistake was that everything was working and I had made the correct connections, but I made a dumb mistake—I forgot to put the buttons inside the box! After several reattempts, the controller finally started working, but I’m still worried about the wiring. I hope at least 1-3 people will get to test my prototype.
 
-I will be posting lots of images of my entire controller prototyping process soon.
+I will be posting lots of images of my entire controller prototyping process soon. Here  are the images of my entire controller constructing process xd! .
+<img width="1920" height="1080" alt="esp322" src="https://github.com/user-attachments/assets/c6badc9f-fbfb-4fc5-9d80-ce3a2ae32b0c" />
+<img width="1080" height="1920" alt="esp321" src="https://github.com/user-attachments/assets/9ea09b30-7c30-4886-a0af-e69e6306f7de" />
+
+And if you have time, you can watch me explaining how to test whether the buttons work on Arduino IDE!
+
+
+https://github.com/user-attachments/assets/537945aa-b608-410d-8e0d-91401bdfd48a
+
+
+
 
 As for the game, I am on the last stage. I managed to hand-draw a couple of assets; the rest I had to source externally. I was able to create a sidebar with all the ingredients, but I still need to finish the summary chart. I think that’s fine, at least I have something to play with.
 
-I have lots to write in this journal, and I will be updating it soon. There are so many things I want to share!
+Let me give you a sneak peek into the game screen I made and the actual visuals (I will be honest, I could have worked harder on this part, but you could say my priorities with this project were different, and I was focused on making the controller work ). But we can surely improve it.
+
+<img width="1497" height="838" alt="Melodicious" src="https://github.com/user-attachments/assets/0737c912-9f01-4860-b0f2-0df55dad5fb5" />
+
+<img width="1492" height="837" alt="GameUI" src="https://github.com/user-attachments/assets/1df1a651-16c6-4f10-8dd7-9c5cc1056b69" />
+
+In this journal, I have more to show than to explain , likely because I have reached the final stage of prototyping. But I think it's time to wrap up now xd!!
+
+
 
